@@ -52,11 +52,14 @@ header {
 /* Flower in season section */
 section {
     margin-bottom: 130px;
+
 }
 
 .section-primary {
+    margin: 0 240px;
     margin-top: 180px;
     text-align: center;
+
 }
 
 .section-primary>h1 {
@@ -161,4 +164,80 @@ section {
 
 .hot-deal-details {
     text-align: center;
+}
+
+/* Instagram section */
+.section-insta>h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+
+
+}
+
+.section-insta>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+
+.insta1 {
+    margin-right: 15px;
+}
+
+/* Send email section */
+.send-email-section {
+    background-image: url("./Flower_Asset/Rectangle\ 9.png");
+    margin: 0 240px;
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.email-input>input {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    width: 700px;
+    height: 64px;
+    margin-right: 16px;
+    padding-left: 10px;
+
+}
+
+/* Footer*/
+
+footer {
+    background-color: #111010;
+}
+
+.footer-section {
+    padding: 130px 0;
+}
+
+.footer-section>h1 {
+    color: white;
+
+}
+
+.footer-section>p {
+    color: white;
+
 }
