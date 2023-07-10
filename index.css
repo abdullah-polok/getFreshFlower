@@ -48,3 +48,70 @@ header {
 
 
 /* Main Section */
+
+/* Flower in season section */
+.section-primary {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.section-primary>h1 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-primary>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.section-secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.flower1 {
+    background-color: #477D1126;
+    text-align: center;
+    margin-right: 24px;
+    padding: 0 50px;
+    padding-top: 70px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+
+}
+
+.flower2 {
+    background-color: #A7216226;
+    text-align: center;
+    margin-right: 24px;
+    padding: 0 50px;
+    padding-top: 70px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+
+}
+
+.flower3 {
+    background-color: #0597A026;
+    text-align: center;
+    padding: 0 50px;
+    padding-top: 70px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+
+}
