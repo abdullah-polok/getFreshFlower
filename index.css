@@ -1,2 +1,50 @@
 /* Header section */
-.hearder-banner {}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #E554731A;
+}
+
+.banner-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 200px;
+}
+
+.banner-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.button-primary {
+    border-radius: 8px;
+    padding: 20px 45px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+}
+
+
+
+/* Main Section */
