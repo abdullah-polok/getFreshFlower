@@ -50,6 +50,10 @@ header {
 /* Main Section */
 
 /* Flower in season section */
+section {
+    margin-bottom: 130px;
+}
+
 .section-primary {
     margin-top: 180px;
     text-align: center;
@@ -147,3 +151,14 @@ header {
 
 
 /* Hot deal section */
+
+.whole-hot-deal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 173, 147, 255);
+}
+
+.hot-deal-details {
+    text-align: center;
+}
