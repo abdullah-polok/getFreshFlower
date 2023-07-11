@@ -231,6 +231,10 @@ section {
     padding-top: 40px;
 }
 
+.offers>p {
+    padding-bottom: 24px;
+}
+
 /* Extra section */
 .section-extra {
     margin: 0 240px;
