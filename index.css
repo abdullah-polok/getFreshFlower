@@ -56,7 +56,6 @@ section {
 }
 
 .section-primary {
-    margin: 0 240px;
     margin-top: 180px;
     text-align: center;
 
@@ -86,7 +85,8 @@ section {
 .section-secondary {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 240px;
 
 
 }
@@ -136,16 +136,16 @@ section {
 .website-features {
     display: flex;
     align-items: center;
-    justify-content: center;
     background-color: #2727270D;
-    margin: 0 240px;
-    margin-top: 130px;
-    padding: 85px 0;
+    margin-left: 355px;
+    margin-right: 355px;
+    padding: 50px 20px;
+
 }
 
 .feature1 {
 
-    margin-right: 100px;
+    margin-right: 85px;
 }
 
 .feature1 div {
@@ -167,6 +167,7 @@ section {
 }
 
 /* Instagram section */
+
 .section-insta>h1 {
     color: #272727;
     text-align: center;
@@ -174,6 +175,7 @@ section {
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
+
 
 
 }
@@ -191,13 +193,16 @@ section {
 
 
 .insta1 {
-    margin-right: 15px;
+    /* margin-right: 10px; */
 }
+
+
 
 /* Send email section */
 .send-email-section {
     background-image: url("./Flower_Asset/Rectangle\ 9.png");
     margin: 0 240px;
+    background-size: contain;
 }
 
 .email-input {
@@ -222,7 +227,41 @@ section {
 
 }
 
+.offers>h1 {
+    padding-top: 40px;
+}
+
+/* Extra section */
+.section-extra {
+    margin: 0 240px;
+}
+
+.extra1 {
+    background-color: #9aa72126;
+    /* margin-right: 24px; */
+}
+
+.extra2 {
+    background-color: #b6202026;
+    /* margin-right: 24px; */
+}
+
+.extra3 {
+    background-color: #a7219c26;
+    /* margin-right: 24px; */
+}
+
+.extra4 {
+    background-color: #20b92026;
+    /* margin-right: 24px; */
+}
+
 /* Footer*/
+
+/*  */
+
+
+
 
 footer {
     background-color: #111010;
